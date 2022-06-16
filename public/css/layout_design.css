@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: "Spline San", sans-serif;
+  color: #222;
+  line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  color: #222;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #f58d17;
+}
+
+.nav-link {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #f58d17;
+}
+
+img {
+  width: 100%;
+}
+
+/* Btn */
+.btn {
+  border-radius: 0;
+  padding: 14px 48px;
+}
+
+.btn-brand{
+  color: #fff;
+  font-weight: 500;
+  border-color: #F58d17;
+  background-color: #F58d17;
+}
+
+.btn-brand:hover {
+  border-color: #e07c0a;
+  background-color: #e07c0a;
+  color: #fff;
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Slider */
+.slide-1 {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/cover1.jpg);
+}
+.slide-2 {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/cover2.jpg);
+}
+
+#HeroSlider h6::after,
+#HeroSlider h6::before {
+  content: " ";
+  width: 40px;
+  height: 4px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0,0,0,0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+/* About */
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#about .divider {
+  width: 80px;
+  height: 2px;
+  display: block;
+  background-color: #f58d17;
+}
+
+/* Intro Text */
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.intro-text p {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+/* Menu */
+#menu .nav-pills .nav-link {
+  background-color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #222;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+#menu .nav-pills .nav-link.active {
+  background-color: #f58d17;
+  color: #ffffff;
+}
